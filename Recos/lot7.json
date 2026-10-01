@@ -1,0 +1,234 @@
+[
+  {
+    "module": "Maladie de Kawasaki",
+    "hook": "Kawasaki : IgIV avant le 10e jour",
+    "body": "Devant une maladie de Kawasaki (fièvre ≥ 5 jours et au moins 4 critères sur 5 : conjonctivite non purulente, atteinte labio-buccale, exanthème, atteinte des extrémités, adénopathie cervicale), débuter les immunoglobulines IV (2 g/kg en une perfusion) idéalement avant le 10e jour de fièvre, avec l'aspirine, et réaliser une échographie cardiaque.",
+    "detail": "Les formes incomplètes sont fréquentes chez le nourrisson de moins de 6 mois : une fièvre prolongée inexpliquée avec syndrome inflammatoire impose l'échographie cardiaque. Si la fièvre persiste 36 h après les IgIV, discuter une 2e cure ou une corticothérapie. Les vaccins vivants sont différés d'environ 11 mois après les IgIV.",
+    "source": "AHA 2017 — Maladie de Kawasaki",
+    "tags": ["Kawasaki", "vascularite", "anévrisme coronaire"]
+  },
+  {
+    "module": "Infection urinaire",
+    "hook": "Infection urinaire fébrile : prélèvement fiable",
+    "body": "Chez un nourrisson fébrile non continent suspect d'infection urinaire, la bandelette urinaire sert au dépistage, mais l'ECBU de confirmation doit être prélevé par un moyen fiable (milieu de jet, sondage vésical ou ponction sus-pubienne) : le recueil par poche expose aux contaminations.",
+    "detail": "Le diagnostic associe une pyurie et une bactériurie significative d'un seul germe (≥ 50 000 UFC/mL sur sondage selon l'AAP). Une bandelette négative sur une poche peut écarter l'infection, mais une bandelette positive doit être confirmée par un prélèvement fiable avant d'engager un traitement.",
+    "source": "AAP 2011 (réaffirmée 2016) — Infection urinaire fébrile",
+    "tags": ["infection urinaire", "ECBU", "nourrisson"]
+  },
+  {
+    "module": "Diabète de l'enfant",
+    "hook": "Acidocétose : remplissage prudent, insuline à H1",
+    "body": "Dans l'acidocétose diabétique de l'enfant, limiter le remplissage initial à 10 mL/kg de NaCl 0,9 % en 30 à 60 minutes, puis réhydrater progressivement sur 24 à 48 heures. L'insuline IV continue (0,05 à 0,1 UI/kg/h) débute environ 1 heure après le début de la réhydratation, sans bolus.",
+    "detail": "Un remplissage rapide et les bolus d'insuline augmentent le risque d'œdème cérébral. Ajouter du potassium dès que la diurèse est reprise et que la kaliémie n'est pas élevée ; surveiller glycémie horaire, kaliémie et état neurologique.",
+    "source": "ISPAD 2022 — Acidocétose diabétique",
+    "tags": ["acidocétose", "insuline", "diabète de type 1"]
+  },
+  {
+    "module": "Diabète de l'enfant",
+    "hook": "Œdème cérébral de l'acidocétose : traiter d'emblée",
+    "body": "Devant une céphalée, une bradycardie, une hypertension, un trouble de la conscience ou une anomalie pupillaire pendant la prise en charge d'une acidocétose, suspecter un œdème cérébral : réduire le débit de perfusion et administrer du mannitol (0,5 à 1 g/kg IV en 10 à 15 minutes) ou du NaCl 3 % (2,5 à 5 mL/kg).",
+    "detail": "Le traitement est clinique et ne doit pas attendre l'imagerie. L'œdème survient surtout dans les 12 premières heures. Prévoir la sécurisation des voies aériennes en évitant l'hyperventilation excessive.",
+    "source": "ISPAD 2022 — Acidocétose diabétique",
+    "tags": ["œdème cérébral", "acidocétose", "mannitol"]
+  },
+  {
+    "module": "Détresse respiratoire néonatale",
+    "hook": "Prématuré : CPAP d'emblée, surfactant ciblé",
+    "body": "Chez le prématuré respirant spontanément, débuter la CPAP dès la salle de naissance plutôt qu'une intubation systématique. Le surfactant est administré précocement mais de façon sélective, selon l'oxygénation (par exemple FiO2 > 0,30 sous CPAP), de préférence par une technique peu invasive (LISA/MIST).",
+    "detail": "Si une intubation est nécessaire pour détresse respiratoire, administrer le surfactant d'emblée. Limiter la ventilation invasive prolongée, associée à la dysplasie bronchopulmonaire.",
+    "source": "Consensus européen 2022 — Syndrome de détresse respiratoire du prématuré",
+    "tags": ["prématurité", "surfactant", "CPAP"]
+  },
+  {
+    "module": "Encéphalopathie anoxo-ischémique",
+    "hook": "Hypothermie thérapeutique : fenêtre de 6 heures",
+    "body": "Chez le nouveau-né ≥ 36 SA atteint d'encéphalopathie anoxo-ischémique modérée à sévère, l'hypothermie contrôlée (33 à 34 °C pendant 72 heures) doit débuter dans les 6 premières heures de vie. Elle réduit la mortalité et le handicap sévère.",
+    "detail": "Les critères associent des marqueurs d'asphyxie périnatale (Apgar ≤ 5 à 10 min, pH du cordon < 7,0 ou déficit de base ≥ 16 mmol/L, ventilation prolongée) et des signes d'encéphalopathie clinique ou à l'EEG d'amplitude. Le réchauffement doit être lent (≤ 0,5 °C par heure).",
+    "source": "TOBY 2009 ; ILCOR 2020",
+    "tags": ["hypothermie", "asphyxie périnatale", "neuroprotection"]
+  },
+  {
+    "module": "Méningite bactérienne",
+    "hook": "Méningite : dexaméthasone avec l'antibiotique",
+    "body": "Dans la méningite bactérienne de l'enfant (au-delà de 1 mois), la dexaméthasone (0,15 mg/kg toutes les 6 heures pendant 4 jours) se discute selon le germe et le protocole, et doit alors être débutée avant ou avec la 1re dose d'antibiotique. Son bénéfice sur les séquelles auditives est surtout démontré dans les infections à Haemophilus influenzae b.",
+    "detail": "Ne pas retarder l'antibiotique pour la ponction lombaire : la différer en cas de signes d'engagement, de choc, de convulsions persistantes ou de trouble de la coagulation, après hémocultures. La dexaméthasone n'est pas indiquée chez le nouveau-né.",
+    "source": "ESCMID 2016 — Méningite bactérienne",
+    "tags": ["méningite", "dexaméthasone", "ponction lombaire"]
+  },
+  {
+    "module": "Traumatisme crânien",
+    "hook": "Traumatisme crânien : règles PECARN avant 2 ans",
+    "body": "Chez l'enfant de moins de 2 ans avec traumatisme crânien, un GCS < 15, une altération de l'état mental ou une fracture du crâne palpable imposent un scanner cérébral (risque de lésion cliniquement importante d'environ 4 %). En l'absence de ces signes, observation ou scanner se discutent selon les autres critères.",
+    "detail": "Autres critères avant 2 ans : hématome du scalp non frontal (occipital, pariétal ou temporal), perte de connaissance ≥ 5 secondes, mécanisme sévère, comportement anormal selon les parents. Après 2 ans : GCS < 15, altération mentale ou signes de fracture de la base du crâne.",
+    "source": "PECARN — Kuppermann, Lancet 2009",
+    "tags": ["traumatisme crânien", "PECARN", "scanner"]
+  },
+  {
+    "module": "Choc septique pédiatrique",
+    "hook": "Choc septique : adrénaline ou noradrénaline, pas dopamine",
+    "body": "Dans le choc septique pédiatrique, débuter l'antibiothérapie dans l'heure, remplir par bolus de 10 à 20 mL/kg avec réévaluation après chaque bolus, puis introduire un vasoactif si le choc persiste : adrénaline ou noradrénaline plutôt que dopamine (classiquement adrénaline en cas de choc froid, noradrénaline en cas de choc chaud).",
+    "detail": "Les vasoactifs peuvent être débutés par voie veineuse périphérique ou intra-osseuse en attendant une voie centrale. Le remplissage se poursuit tant que persistent des signes d'hypoperfusion sans surcharge (hépatomégalie, crépitants, hypoxémie).",
+    "source": "Surviving Sepsis Campaign Children 2020",
+    "tags": ["choc septique", "vasopresseurs", "remplissage"]
+  },
+  {
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Citrate de caféine (apnées du prématuré)",
+    "body": "Dose de charge de 20 mg/kg de citrate de caféine IV ou per os, puis entretien de 5 à 10 mg/kg/j en 1 prise.",
+    "detail": "Ne pas confondre citrate de caféine (20 mg/mL) et caféine base (10 mg/mL) : 20 mg de citrate correspondent à 10 mg de base. Surveiller tachycardie, agitation et intolérance digestive.",
+    "source": "RCP ; essai CAP 2006",
+    "tags": ["néonatologie", "apnées", "méthylxanthine"]
+  },
+  {
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Kétamine (sédation pour geste douloureux)",
+    "body": "1 à 2 mg/kg IV lent (en 1 à 2 minutes) ou 4 à 5 mg/kg IM.",
+    "detail": "Sédation dissociative réservée à une équipe formée, avec matériel d'aspiration et de ventilation prêt (laryngospasme rare). Contre-indiquée avant 3 mois ; prudence en cas d'hypertension intracrânienne non contrôlée ou d'antécédent psychotique.",
+    "source": "ACEP 2011 — Kétamine et sédation procédurale",
+    "tags": ["anesthésique", "sédation", "geste douloureux"]
+  },
+  {
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Hydrocortisone (insuffisance surrénale aiguë)",
+    "body": "Bolus IV de 50 à 100 mg/m² (environ 25 mg avant 3 ans, 50 mg de 3 à 12 ans, 100 mg au-delà), puis 50 à 100 mg/m²/j en 4 prises ou en perfusion continue.",
+    "detail": "À associer au remplissage par NaCl 0,9 % et à du glucose en cas d'hypoglycémie (G10 % 2 mL/kg). Penser à l'hyperplasie congénitale des surrénales chez le nouveau-né (ambiguïté sexuelle, perte de sel entre J7 et J14).",
+    "source": "Endocrine Society 2018 ; ESPE",
+    "tags": ["corticoïde", "insuffisance surrénale", "urgence endocrinienne"]
+  },
+  {
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Aciclovir (infection néonatale à HSV)",
+    "body": "20 mg/kg IV toutes les 8 h (60 mg/kg/j), pendant 14 jours en cas d'atteinte cutanéo-muqueuse, 21 jours en cas d'atteinte neurologique ou disséminée.",
+    "detail": "À débuter sans attendre la confirmation devant un nouveau-né fébrile avec vésicules, convulsions ou LCR pathologique. Hydrater et surveiller la fonction rénale. Un traitement oral suppressif de 6 mois suit en cas d'atteinte neurologique ou cutanéo-muqueuse.",
+    "source": "AAP Red Book 2021",
+    "tags": ["antiviral", "néonatologie", "herpès"]
+  },
+  {
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Insuline IV (acidocétose diabétique)",
+    "body": "Insuline rapide en perfusion continue à 0,05 à 0,1 UI/kg/h, sans bolus, débutée environ 1 heure après le début de la réhydratation.",
+    "detail": "Une dose de 0,05 UI/kg/h peut être choisie chez les plus jeunes. Ne pas interrompre avant la correction de l'acidose : ajouter du glucose si la glycémie descend vers 14 mmol/L (2,5 g/L).",
+    "source": "ISPAD 2022",
+    "tags": ["insuline", "acidocétose", "diabète"]
+  },
+  {
+    "module": "Repères pédiatriques",
+    "quiz": true,
+    "format": "reperes",
+    "hook": "Score de Kocher (arthrite septique de hanche)",
+    "body": "4 critères : fièvre > 38,5 °C, impossibilité d'appui, VS > 40 mm/h, leucocytes > 12 000/mm³. Probabilité d'arthrite septique : 0 critère ≈ 0,2 %, 1 ≈ 3 %, 2 ≈ 40 %, 3 ≈ 93 %, 4 ≈ 99 %.",
+    "detail": "Chiffres de la cohorte initiale, non validés partout. Certaines variantes ajoutent une CRP > 20 mg/L. En cas de forte suspicion, ponction articulaire avant l'antibiothérapie.",
+    "source": "Kocher, J Bone Joint Surg 1999",
+    "tags": ["arthrite septique", "score", "orthopédie"]
+  },
+  {
+    "module": "Repères pédiatriques",
+    "quiz": true,
+    "format": "reperes",
+    "hook": "Pression artérielle moyenne minimale du prématuré",
+    "body": "PAM (mmHg) ≥ âge gestationnel en semaines d'aménorrhée (règle empirique).",
+    "detail": "Un chiffre isolé ne suffit pas : juger la perfusion (temps de recoloration, diurèse, lactate, échographie fonctionnelle). La PAM augmente physiologiquement pendant les 72 premières heures de vie.",
+    "source": "BAPM 1992 ; Dempsey 2009",
+    "tags": ["prématurité", "pression artérielle", "hémodynamique"]
+  },
+  {
+    "module": "Repères pédiatriques",
+    "quiz": true,
+    "format": "reperes",
+    "hook": "Score de Westley (laryngite aiguë)",
+    "body": "5 items : stridor (0 à 2), tirage (0 à 3), entrée d'air (0 à 2), cyanose (0, 4 ou 5), conscience (0 ou 5), soit un total sur 17. ≤ 2 : léger ; 3 à 7 : modéré ; 8 à 11 : sévère ; ≥ 12 : imminence d'insuffisance respiratoire.",
+    "detail": "Les formes modérées à sévères relèvent de la corticothérapie (dexaméthasone) ; l'adrénaline nébulisée est réservée aux formes sévères. Réévaluer après traitement : l'effet de l'adrénaline est transitoire.",
+    "source": "Westley 1978 ; Collège de pédiatrie",
+    "tags": ["laryngite", "score", "stridor"]
+  },
+  {
+    "module": "Repères pédiatriques",
+    "quiz": true,
+    "format": "reperes",
+    "hook": "Vitesse de correction de l'hypernatrémie",
+    "body": "Pas plus de 0,5 mmol/L/h, soit au maximum 10 à 12 mmol/L par 24 heures.",
+    "detail": "Une correction trop rapide expose à l'œdème cérébral et aux convulsions. À l'inverse, en cas d'hyponatrémie symptomatique (convulsions, coma), un bolus de NaCl 3 % de 2 à 5 mL/kg en 10 à 20 minutes est indiqué, puis correction limitée à 10 mmol/L par 24 heures.",
+    "source": "Collège de pédiatrie — Troubles de l'hydratation",
+    "tags": ["natrémie", "ionogramme", "hydratation"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Garçon de 4 semaines, vomissements en jet non bilieux après chaque tétée, avide, perte de poids. Diagnostic, bilan et priorité thérapeutique ?",
+    "body": "Sténose hypertrophique du pylore : échographie abdominale (muscle pylorique épaissi ≥ 3 mm, canal allongé) et ionogramme à la recherche d'une alcalose métabolique hypochlorémique hypokaliémique. Corriger l'hydratation et l'ionogramme avant la pylorotomie : urgence différée, pas immédiate.",
+    "detail": "Mettre à jeun et perfuser (NaCl 0,9 % glucosé, potassium une fois la diurèse reprise). Une alcalose non corrigée expose à des apnées postopératoires.",
+    "source": "Collège de pédiatrie — Sténose hypertrophique du pylore",
+    "tags": ["pylore", "vomissements", "alcalose métabolique"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Nouveau-né de J3, vomissements bilieux, ventre souple puis distension. Quel diagnostic ne pas manquer et quelle conduite ?",
+    "body": "Volvulus du grêle sur malrotation : urgence chirurgicale absolue. Mettre à jeun, poser une sonde gastrique, remplir et débuter les antibiotiques, transférer en chirurgie pédiatrique ; l'imagerie (TOGD ou échographie-Doppler) ne doit pas retarder la laparotomie en cas d'instabilité.",
+    "detail": "Tout vomissement bilieux du nouveau-né est chirurgical jusqu'à preuve du contraire. Le retard expose à la nécrose intestinale étendue et au syndrome de grêle court.",
+    "source": "Collège de pédiatrie — Vomissements du nouveau-né",
+    "tags": ["volvulus", "malrotation", "urgence chirurgicale"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Enfant de 7 ans, polyuro-polydipsie, amaigrissement, dyspnée de Kussmaul, glycémie 4 g/L, pH 7,05. Premiers gestes ?",
+    "body": "Acidocétose sévère (pH < 7,1) : voie veineuse et bilan (gaz du sang, ionogramme, cétonémie), remplissage de 10 mL/kg de NaCl 0,9 %, réhydratation sur 24 à 48 h, insuline IV 0,05 à 0,1 UI/kg/h débutée 1 h plus tard, potassium dès la diurèse, surveillance neurologique horaire.",
+    "detail": "Pas de bicarbonate en routine. Rechercher le facteur déclenchant (infection). Le déficit en potassium est constant malgré une kaliémie initiale parfois normale ou élevée.",
+    "source": "ISPAD 2022",
+    "tags": ["acidocétose", "diabète inaugural", "urgence"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Garçon de 12 ans, douleur scrotale brutale depuis 2 h, nausées, testicule ascensionné, réflexe crémastérien aboli. Conduite à tenir ?",
+    "body": "Torsion du cordon spermatique jusqu'à preuve du contraire : exploration chirurgicale en urgence, idéalement dans les 6 heures après le début des douleurs, sans retard pour une imagerie (écho-Doppler seulement si elle n'allonge pas le délai).",
+    "detail": "Le sauvetage testiculaire dépasse 90 % avant 6 h et chute au-delà de 12 h. Fixer aussi le testicule controlatéral. Une douleur abdominale basse isolée chez le garçon impose l'examen des testicules.",
+    "source": "EAU/ESPU 2023 — Urologie pédiatrique",
+    "tags": ["torsion testiculaire", "urgence chirurgicale", "scrotum aigu"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Nouveau-né de 8 jours, refus de têter, teint gris, tachypnée, pouls fémoraux faibles, hépatomégalie. Que suspecter et que perfuser ?",
+    "body": "Cardiopathie ducto-dépendante (coarctation aortique critique, hypoplasie du cœur gauche) : prostaglandine E1 IV en urgence (0,01 à 0,05 µg/kg/min selon protocole), avis cardiopédiatrique, soutien hémodynamique prudent et oxygénothérapie sans hyperoxie.",
+    "detail": "Une différence de saturation pré/post-ductale et une pression artérielle aux 4 membres orientent le diagnostic. L'hyperoxie favorise la fermeture du canal artériel. Surveiller les apnées sous prostaglandines.",
+    "source": "Collège de pédiatrie — Cardiopathies congénitales",
+    "tags": ["cardiopathie ducto-dépendante", "prostaglandine", "nouveau-né"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Enfant de 6 ans, purpura infiltré des membres inférieurs, douleurs abdominales, arthralgies, apyrétique. Diagnostic et suivi ?",
+    "body": "Purpura rhumatoïde (vascularite à IgA) : diagnostic clinique, traitement symptomatique. Surveiller la pression artérielle et la bandelette urinaire (hématurie, protéinurie) pendant au moins 6 mois, en raison du risque d'atteinte rénale.",
+    "detail": "Complications à rechercher : invagination, hémorragie digestive, orchite. Les corticoïdes ne sont pas systématiques ; ils se discutent pour des douleurs abdominales sévères ou une atteinte rénale, selon avis spécialisé.",
+    "source": "SHARE 2019 — Vascularite à IgA",
+    "tags": ["purpura rhumatoïde", "vascularite à IgA", "néphropathie"]
+  },
+  {
+    "module": "Cas cliniques",
+    "quiz": true,
+    "format": "cas",
+    "hook": "Nouveau-né à terme, détresse respiratoire dès la naissance, abdomen plat, bruits hydroaériques dans le thorax. Premier geste ?",
+    "body": "Hernie diaphragmatique congénitale (le plus souvent gauche) : intubation immédiate et sonde gastrique en aspiration continue ; éviter la ventilation au masque, qui distend le tube digestif hernié. Ventilation douce guidée par la SpO2 pré-ductale, puis transfert en centre spécialisé.",
+    "detail": "Le diagnostic est souvent anténatal. L'hypertension pulmonaire est le principal déterminant du pronostic ; la chirurgie est différée jusqu'à la stabilisation hémodynamique.",
+    "source": "CDH EURO Consortium 2015",
+    "tags": ["hernie diaphragmatique", "détresse respiratoire", "salle de naissance"]
+  }
+]

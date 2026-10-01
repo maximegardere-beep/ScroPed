@@ -101,6 +101,7 @@ Utiliser des références **réelles et vérifiables** : HAS, SFP, GPIP, SPILF, 
 8. **`detail`** apporte ce que le `body` ne dit pas (jamais une redite).
 9. **Diversité** : au moins 8 modules différents pour 25 cartes ; mélanger standard, quiz et cas.
 10. Aucun nom de patient, aucune donnée identifiante, aucune image.
+11. **Niveau de difficulté** : les lots 1 à 6 sont de niveau « premier cycle de l'internat » (règles de base). À partir du lot 7, viser un niveau d'interne confirmé : diagnostics différentiels, pièges, ordre des priorités, seuils chiffrés précis, urgences à diagnostic non évident (acidocétose, torsion, volvulus, cardiopathie ducto-dépendante…), scores moins courants, doses d'urgence et d'endocrinologie/néonatologie. Éviter les messages déjà couverts par un lot précédent.
 
 ## 7. Procédure de génération d'un lot
 

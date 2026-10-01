@@ -1,83 +1,170 @@
 [
   {
-    "module": "Voies aériennes",
-    "hook": "Préoxygénation optimale avant toute induction",
-    "body": "Une préoxygénation efficace avant l'induction anesthésique ou une intubation en urgence repose sur une étanchéité correcte du masque, une position demi-assise ou proclive lorsque cela est possible, et le maintien d'une oxygénation apnéique pendant la laryngoscopie.",
-    "detail": "Cette étape conditionne directement le délai de désaturation disponible avant et pendant la tentative d'intubation, en particulier chez le patient obèse, la femme enceinte ou l'insuffisant respiratoire. Une inclinaison proclive de 25 à 30° augmente la capacité résiduelle fonctionnelle et allonge le délai avant désaturation.",
-    "source": "SFAR 2017 (RFE Intubation difficile)",
-    "tags": ["voies aériennes", "préoxygénation", "intubation"]
+    "module": "Bronchiolite",
+    "hook": "Bronchiolite : pas de médicaments en routine",
+    "body": "Chez le nourrisson de moins de 12 mois au 1er épisode de bronchiolite, ne pas prescrire de bronchodilatateurs, corticoïdes, antibiotiques ni adrénaline nébulisée en routine. La prise en charge repose sur la désobstruction rhinopharyngée au sérum physiologique, le fractionnement des repas et la surveillance.",
+    "detail": "Les antibiotiques ne sont indiqués qu'en cas de surinfection bactérienne documentée (otite moyenne aiguë, pneumonie). La kinésithérapie respiratoire n'est pas recommandée en routine au 1er épisode.",
+    "source": "HAS 2019 — Bronchiolite aiguë du nourrisson",
+    "tags": ["bronchiolite", "nourrisson", "VRS"]
   },
   {
-    "module": "Choc septique",
-    "hook": "Contrôler la source infectieuse dès que possible",
-    "body": "Au-delà de l'antibiothérapie et du remplissage vasculaire, l'identification et le contrôle de la source infectieuse (drainage d'abcès, geste chirurgical, ablation d'un dispositif) doivent être réalisés le plus tôt possible dans la prise en charge du choc septique.",
-    "detail": "Un retard dans le contrôle de la source est associé à une surmortalité, indépendamment de la qualité de l'antibiothérapie administrée.",
-    "source": "Surviving Sepsis Campaign 2021",
-    "tags": ["choc septique", "contrôle de la source", "sepsis"]
+    "module": "Bronchiolite",
+    "hook": "Bronchiolite : oxygène si SpO2 < 90 %",
+    "body": "Dans la bronchiolite, l'oxygénothérapie est indiquée lorsque la SpO2 reste inférieure à 90 % en air ambiant. Une SpO2 < 92 % fait partie des critères d'hospitalisation.",
+    "detail": "Les autres critères d'hospitalisation sont la difficulté à s'alimenter (< 50 % des apports), les signes de lutte respiratoire marqués, les apnées, la déshydratation et le contexte (âge, comorbidités, éloignement des soins).",
+    "source": "HAS 2019 — Bronchiolite aiguë du nourrisson",
+    "tags": ["bronchiolite", "oxygénothérapie", "hospitalisation"]
   },
   {
-    "module": "Traumatologie",
-    "hook": "Acide tranexamique précoce dans le trauma grave",
-    "body": "Chez le patient traumatisé présentant ou à risque d'hémorragie significative, l'acide tranexamique doit être administré le plus tôt possible après le traumatisme, son bénéfice diminuant nettement au-delà d'un délai de quelques heures.",
-    "detail": "Ce message, distinct de son usage en obstétrique, provient des essais CRASH-2/CRASH-3 et a été repris dans les recommandations européennes sur l'hémorragie post-traumatique.",
-    "source": "CRASH-2/CRASH-3 ; European Trauma Guideline 2019",
-    "grade": "Grade 1A",
-    "tags": ["traumatologie", "acide tranexamique", "hémorragie"]
+    "module": "Bronchiolite",
+    "hook": "Qui est à risque de bronchiolite grave ?",
+    "body": "Les facteurs de risque de forme grave sont un âge < 6 semaines, la prématurité (< 36 SA) chez le nourrisson de moins de 3 mois d'âge corrigé, et les comorbidités : cardiopathie congénitale, dysplasie bronchopulmonaire, maladie neuromusculaire, déficit immunitaire.",
+    "detail": "Ces nourrissons sont à hospitaliser plus facilement, même en l'absence de détresse initiale, car l'aggravation est possible dans les 48 à 72 premières heures.",
+    "source": "HAS 2019 — Bronchiolite aiguë du nourrisson",
+    "tags": ["bronchiolite", "facteurs de risque", "prématurité"]
   },
   {
-    "module": "ALR",
-    "hook": "Échoguidage recommandé pour les blocs périphériques",
-    "body": "L'échoguidage est recommandé en première intention pour la réalisation des blocs nerveux périphériques, en complément ou en remplacement de la neurostimulation, afin d'améliorer la visualisation de l'aiguille, du nerf et de la diffusion de l'anesthésique local.",
-    "detail": "Cet apport en sécurité ne dispense pas d'une surveillance clinique attentive des signes de toxicité systémique des anesthésiques locaux.",
-    "source": "SFAR (RFE Anesthésie locorégionale échoguidée)",
-    "tags": ["ALR", "échoguidage", "bloc périphérique"]
+    "module": "Fièvre de l'enfant",
+    "hook": "Fièvre avant 3 mois : toujours l'hôpital",
+    "body": "Un nourrisson de moins de 3 mois fébrile (température ≥ 38 °C) nécessite une évaluation hospitalière systématique avec bilan infectieux, même si son état général semble conservé.",
+    "detail": "Le risque d'infection bactérienne invasive est élevé et les signes cliniques sont peu spécifiques à cet âge. Avant 28 jours, l'antibiothérapie probabiliste doit couvrir Listeria (ajout d'amoxicilline selon le protocole local).",
+    "source": "NICE NG143 2019 — Fièvre chez l'enfant < 5 ans",
+    "tags": ["fièvre", "nourrisson", "infection bactérienne invasive"]
   },
   {
-    "module": "Sevrage ventilatoire",
-    "hook": "Une épreuve de ventilation spontanée chaque jour",
-    "body": "Chez tout patient ventilé mécaniquement dont la cause initiale de mise sous ventilation s'améliore, une épreuve quotidienne de ventilation spontanée doit être envisagée pour évaluer l'aptitude à l'extubation, plutôt qu'une simple réduction progressive du support ventilatoire.",
-    "detail": "Cette évaluation quotidienne raccourcit la durée de ventilation mécanique, en particulier lorsqu'elle est couplée à un arrêt quotidien de la sédation.",
-    "source": "SRLF-SFAR 2023 (Sevrage de la ventilation mécanique)",
-    "tags": ["ventilation mécanique", "sevrage", "extubation"]
+    "module": "Fièvre de l'enfant",
+    "hook": "Traiter l'inconfort, pas le chiffre",
+    "body": "Devant une fièvre mal tolérée, utiliser un seul antipyrétique en première intention (paracétamol 15 mg/kg toutes les 6 h) et viser le confort de l'enfant plutôt qu'une température normale. L'alternance ou l'association systématique paracétamol-ibuprofène n'est pas recommandée.",
+    "detail": "L'ibuprofène est à éviter en cas de déshydratation, de varicelle ou de lésions cutanées infectieuses (risque de fasciite nécrosante). Un enfant fébrile qui joue et boit n'a pas besoin d'antipyrétique.",
+    "source": "NICE NG143 2019 ; ANSM",
+    "tags": ["fièvre", "paracétamol", "antipyrétique"]
   },
   {
-    "module": "Delirium en réanimation",
-    "hook": "Dépister le delirium tous les jours, systématiquement",
-    "body": "Un dépistage quotidien et systématique du delirium, à l'aide d'un outil validé tel que la CAM-ICU, est recommandé chez tout patient de réanimation, y compris sous sédation légère, car le delirium reste largement sous-diagnostiqué sans évaluation formalisée.",
-    "detail": "Le delirium en réanimation est associé à une durée de séjour prolongée et à un risque accru de déclin cognitif à distance de l'hospitalisation.",
-    "source": "SCCM PADIS 2018",
-    "tags": ["delirium", "réanimation", "CAM-ICU"]
+    "module": "Fièvre de l'enfant",
+    "hook": "Purpura fébrile : ceftriaxone sans attendre",
+    "body": "Devant un purpura fébrile avec éléments de gravité (purpura ecchymotique ou nécrotique, instabilité hémodynamique, troubles de conscience), injecter immédiatement de la ceftriaxone 100 mg/kg (maximum 4 g) en IV ou IM, avant tout transfert et sans ponction lombaire préalable.",
+    "detail": "Un purpura fulminans est une urgence thérapeutique absolue : appeler le SAMU, ne pas retarder l'antibiotique pour un bilan, et débuter le remplissage vasculaire en cas de choc.",
+    "source": "Recommandations françaises 2014 — Purpura fulminans",
+    "tags": ["purpura fulminans", "méningocoque", "urgence"]
   },
   {
-    "module": "Hypothermie périopératoire",
-    "hook": "Réchauffer activement plutôt que surveiller seulement",
-    "body": "La prévention de l'hypothermie périopératoire repose sur un réchauffement actif (couverture chauffante, réchauffement des solutés) débuté avant l'induction et poursuivi pendant toute la durée de l'intervention, plutôt que sur une simple surveillance de la température corporelle.",
-    "detail": "L'hypothermie périopératoire est associée à davantage de saignement, d'infections du site opératoire et d'inconfort au réveil.",
-    "source": "SFAR 2017 (RFE Hypothermie périopératoire)",
-    "tags": ["hypothermie", "périopératoire", "réchauffement"]
+    "module": "Gastro-entérite aiguë",
+    "hook": "SRO d'abord, perfusion en second",
+    "body": "En cas de gastro-entérite aiguë déshydratante, la réhydratation orale par solution hypoosmolaire (SRO) est le traitement de 1re intention : petites quantités fréquentes (cuillère, seringue), y compris en cas de vomissements. La voie IV est réservée aux échecs de la voie orale, au choc ou aux contre-indications.",
+    "detail": "Reprendre précocement l'alimentation habituelle et maintenir l'allaitement. Éviter les jus de fruits et sodas, hyperosmolaires, qui aggravent la diarrhée.",
+    "source": "ESPGHAN/ESPID 2014 — Gastro-entérite aiguë de l'enfant",
+    "tags": ["gastro-entérite", "déshydratation", "SRO"]
   },
   {
-    "module": "Antibiothérapie en réanimation",
-    "hook": "Désescalader dès que la documentation le permet",
-    "body": "Une fois les résultats microbiologiques disponibles, l'antibiothérapie probabiliste initiale doit être réévaluée et désescaladée vers un spectre plus étroit, plutôt que poursuivie systématiquement à large spectre jusqu'à la fin du traitement.",
-    "detail": "Cette démarche vise à limiter la pression de sélection et l'émergence de résistances bactériennes, sans compromettre l'efficacité du traitement en cours.",
-    "source": "Surviving Sepsis Campaign 2021",
-    "tags": ["antibiothérapie", "désescalade", "résistance bactérienne"]
+    "module": "Gastro-entérite aiguë",
+    "hook": "Gastro simple : ni antibiotique ni lopéramide",
+    "body": "La gastro-entérite aiguë de l'enfant est le plus souvent virale (rotavirus, norovirus) : pas d'antibiotique en routine, et lopéramide contre-indiqué chez l'enfant de moins de 2 ans.",
+    "detail": "Les antibiotiques sont réservés à des situations ciblées : sepsis, dysenterie sévère, immunodépression, certains germes documentés. Une diarrhée sanglante fébrile impose une coproculture.",
+    "source": "ESPGHAN/ESPID 2014 ; ANSM",
+    "tags": ["gastro-entérite", "antibiotiques", "lopéramide"]
   },
   {
-    "module": "Monitorage hémodynamique",
-    "hook": "L'échographie au lit, réflexe de première intention",
-    "body": "L'échographie cardiaque et pulmonaire réalisée au lit du patient est recommandée comme outil de première intention pour orienter le diagnostic étiologique et la prise en charge initiale d'un état de choc, avant ou en complément d'un monitorage hémodynamique invasif.",
-    "detail": "Elle permet une évaluation répétée et non invasive de la fonction cardiaque et de la volémie, à la différence de paramètres statiques comme la pression veineuse centrale.",
-    "source": "ESICM, consensus international 2012 (POCUS)",
-    "tags": ["monitorage hémodynamique", "échographie", "choc"]
+    "module": "Infections ORL et respiratoires",
+    "hook": "Angine : TDR avant tout antibiotique",
+    "body": "À partir de 3 ans, un TDR du streptocoque du groupe A est indiqué devant une angine, et l'antibiotique n'est prescrit que si le TDR est positif. Traitement de référence : amoxicilline 50 mg/kg/j en 2 prises pendant 6 jours.",
+    "detail": "Avant 3 ans, l'angine est quasi toujours virale et le TDR n'est pas systématique. Le but du traitement est de prévenir les complications (rhumatisme articulaire aigu, complications suppuratives locorégionales).",
+    "source": "HAS 2016 — Angine : TDR et antibiothérapie",
+    "tags": ["angine", "TDR", "streptocoque A"]
   },
   {
-    "module": "Anesthésie obstétricale",
-    "hook": "Anticiper des voies aériennes difficiles chez la parturiente",
-    "body": "Chez la femme enceinte, les modifications anatomiques et physiologiques justifient une anticipation systématique du risque de voies aériennes difficiles et une préparation du matériel d'intubation difficile avant toute anesthésie générale, y compris en contexte d'urgence obstétricale.",
-    "detail": "La grossesse est associée à une désaturation plus rapide et à un risque accru d'échec d'intubation par rapport à la population générale.",
-    "source": "DAS/OAA 2015 (Obstetric airway guideline)",
-    "tags": ["obstétrique", "voies aériennes", "intubation difficile"]
+    "module": "Infections ORL et respiratoires",
+    "hook": "Otite moyenne aiguë : antibiotique avant 2 ans",
+    "body": "Une otite moyenne aiguë purulente avant 2 ans (ou avec symptômes sévères) justifie un antibiotique d'emblée : amoxicilline 80 à 90 mg/kg/j en 2 à 3 prises, pendant 8 à 10 jours avant 2 ans et 5 jours après 2 ans.",
+    "detail": "Après 2 ans, une OMA paucisymptomatique peut être surveillée sans antibiotique pendant 48 à 72 h. Un tympan simplement congestif ou une otite séromuqueuse ne justifie pas d'antibiotique.",
+    "source": "SPILF/GPIP 2011 — Antibiothérapie des infections ORL",
+    "tags": ["otite", "amoxicilline", "ORL"]
+  },
+  {
+    "module": "Infections ORL et respiratoires",
+    "hook": "Pneumonie communautaire : amoxicilline forte dose",
+    "body": "Devant une pneumonie communautaire non compliquée de l'enfant vacciné, l'amoxicilline à forte dose (80 à 100 mg/kg/j en 2 à 3 prises) est le traitement de 1re intention, y compris à l'hôpital hors forme sévère.",
+    "detail": "Une durée courte de 5 jours est aussi efficace que 10 jours dans les pneumonies non compliquées. Un macrolide peut être envisagé chez l'enfant plus grand (> 5 ans) si l'on suspecte un germe atypique.",
+    "source": "IDSA/PIDS 2011 ; essais SAFER 2021 et CAP-IT 2022",
+    "tags": ["pneumonie", "amoxicilline", "antibiothérapie courte"]
+  },
+  {
+    "module": "Asthme de l'enfant",
+    "hook": "Crise d'asthme : salbutamol répété",
+    "body": "Dans la crise d'asthme de l'enfant, les bêta-2 mimétiques inhalés d'action rapide (salbutamol) sont le traitement de 1re intention, répétables toutes les 20 minutes la 1re heure (chambre d'inhalation ou nébulisation), avec de l'oxygène si la SpO2 est < 94 %.",
+    "detail": "Les corticoïdes oraux (prednisolone 1 à 2 mg/kg/j, 3 à 5 jours) sont à débuter tôt dès une crise modérée à sévère. L'ipratropium s'ajoute aux bêta-2 mimétiques dans les crises sévères.",
+    "source": "GINA 2023",
+    "tags": ["asthme", "salbutamol", "crise"]
+  },
+  {
+    "module": "Asthme de l'enfant",
+    "hook": "Asthme non contrôlé : vérifier avant d'intensifier",
+    "body": "Devant un asthme non contrôlé, vérifier la technique d'inhalation, l'observance, l'exposition aux facteurs déclenchants et le diagnostic avant d'augmenter le traitement de fond.",
+    "detail": "Chez l'enfant, utiliser une chambre d'inhalation avec les aérosols-doseurs, avec masque facial avant 3 à 4 ans, et vérifier la technique à chaque consultation.",
+    "source": "GINA 2023",
+    "tags": ["asthme", "observance", "technique d'inhalation"]
+  },
+  {
+    "module": "Urgences pédiatriques",
+    "hook": "Anaphylaxie : adrénaline IM 0,01 mg/kg",
+    "body": "Devant une anaphylaxie de l'enfant, injecter immédiatement de l'adrénaline en IM dans la face antérolatérale de la cuisse à 0,01 mg/kg, à répéter après 5 à 15 minutes si besoin. Allonger l'enfant jambes surélevées, donner de l'oxygène et remplir en cas d'hypotension.",
+    "detail": "Les antihistaminiques et corticoïdes ne sont que des traitements adjuvants. Surveillance prolongée (plusieurs heures) en raison du risque de réaction biphasique, puis prescription d'un stylo auto-injecteur avec plan d'action écrit.",
+    "source": "EAACI 2021 — Anaphylaxie",
+    "tags": ["anaphylaxie", "adrénaline", "allergie"]
+  },
+  {
+    "module": "Urgences pédiatriques",
+    "hook": "Crise convulsive > 5 min : benzodiazépine",
+    "body": "Une crise convulsive qui dure plus de 5 minutes se traite comme un état de mal épileptique : benzodiazépine en 1re ligne (midazolam buccal ou intranasal, diazépam rectal, clonazépam ou midazolam IV), à répéter une fois si la crise persiste. Penser à contrôler la glycémie capillaire.",
+    "detail": "En l'absence d'effet après 2 doses de benzodiazépine, passer à une 2e ligne (par exemple phénytoïne/fosphénytoïne, lévétiracétam ou valproate selon le protocole local) et prévenir la réanimation.",
+    "source": "AES 2016 — État de mal épileptique",
+    "tags": ["convulsion", "état de mal", "benzodiazépine"]
+  },
+  {
+    "module": "Urgences pédiatriques",
+    "hook": "Convulsion fébrile simple : pas d'examens",
+    "body": "Après une convulsion fébrile simple (généralisée, < 15 minutes, non répétée sur 24 h) chez un enfant qui a retrouvé un état normal, il n'y a pas d'indication à l'EEG, à l'imagerie ni à un traitement antiépileptique de fond. La priorité est de chercher la cause de la fièvre.",
+    "detail": "Le risque de récidive est d'environ 30 %. La ponction lombaire se discute avant 12 mois ou en cas de signes méningés. Informer les parents sur la conduite à tenir en cas de nouvelle crise.",
+    "source": "AAP 2011 — Convulsions fébriles simples",
+    "tags": ["convulsion fébrile", "fièvre", "épilepsie"]
+  },
+  {
+    "module": "Maltraitance",
+    "hook": "Ecchymose avant l'âge de la marche : alerte",
+    "body": "Une ecchymose, une fracture ou une brûlure chez un nourrisson qui ne se déplace pas seul est suspecte de maltraitance tant qu'aucune explication cohérente n'est trouvée. Un bilan médical complet et un avis spécialisé sont nécessaires.",
+    "detail": "Localisations suspectes : tronc, oreilles, cou, joues. Fractures de côtes ou métaphysaires et hématomes sous-duraux multiples évoquent des violences, dont le syndrome du bébé secoué.",
+    "source": "HAS — Maltraitance chez l'enfant : repérage et conduite à tenir",
+    "tags": ["maltraitance", "ecchymose", "bébé secoué"]
+  },
+  {
+    "module": "Maltraitance",
+    "hook": "Information préoccupante ou signalement ?",
+    "body": "Devant une suspicion de maltraitance, le médecin transmet une information préoccupante à la CRIP du département, et un signalement au procureur en cas de danger grave et immédiat. Le secret professionnel est levé dans ce cadre (article 226-14 du Code pénal).",
+    "detail": "Le médecin n'a pas à apporter de preuve pour transmettre de bonne foi. En cas d'urgence vitale, hospitaliser l'enfant et saisir directement le procureur.",
+    "source": "Code pénal, art. 226-14 ; HAS",
+    "tags": ["maltraitance", "signalement", "CRIP", "droit"]
+  },
+  {
+    "module": "Vaccination",
+    "hook": "Hexavalent à 2, 4 et 11 mois",
+    "body": "Le schéma vaccinal du nourrisson repose sur l'hexavalent (diphtérie, tétanos, coqueluche, poliomyélite, Haemophilus b, hépatite B) à 2, 4 et 11 mois, associé au pneumocoque aux mêmes âges. Onze vaccins sont obligatoires pour les enfants nés depuis le 1er janvier 2018.",
+    "detail": "Le ROR est administré à 12 mois puis entre 16 et 18 mois. Le calendrier évolue régulièrement (méningocoques, rotavirus, VRS) : toujours vérifier l'édition en vigueur.",
+    "source": "Calendrier vaccinal (ministère de la Santé / HAS), édition en vigueur",
+    "tags": ["vaccination", "hexavalent", "calendrier vaccinal"]
+  },
+  {
+    "module": "Douleur de l'enfant",
+    "hook": "MEOPA pour les gestes douloureux",
+    "body": "Le MEOPA (mélange équimolaire oxygène-protoxyde d'azote) est indiqué pour les gestes douloureux brefs de l'enfant (ponction, pansement, suture) : inhalation d'au moins 3 minutes avant le geste, en présence d'un soignant formé, sans nécessité de jeûne.",
+    "detail": "Contre-indications : hypertension intracrânienne, pneumothorax ou toute distension gazeuse, traumatisme crânien ou facial grave, déficit connu en vitamine B12. Il ne remplace pas l'anesthésie locale quand elle est nécessaire.",
+    "source": "RCP du MEOPA",
+    "tags": ["douleur", "MEOPA", "geste douloureux"]
+  },
+  {
+    "module": "Douleur de l'enfant",
+    "hook": "L'échelle de douleur dépend de l'âge",
+    "body": "L'outil d'évaluation se choisit selon l'âge : EVENDOL en hétéro-évaluation de 0 à 7 ans, échelle des visages (FPS-R) à partir de 4-5 ans, EVA à partir de 6 ans et échelle numérique à partir de 8 ans.",
+    "detail": "Chez le nouveau-né, utiliser des échelles dédiées (EDIN, DAN). Réévaluer la douleur après chaque traitement et la tracer dans le dossier.",
+    "source": "Pediadol ; HAS — Douleur de l'enfant",
+    "tags": ["douleur", "EVENDOL", "évaluation"]
   }
 ]

@@ -1,315 +1,162 @@
 [
   {
-    "module": "Hémostase péri-opératoire",
-    "hook": "Transfusion de plaquettes si < 50 G/L",
-    "body": "Pour une chirurgie ou un geste invasif à risque hémorragique modéré ou standard, le seuil transfusionnel recommandé est de 50 G/L de plaquettes.",
-    "detail": "Des seuils plus élevés (50 à 100 G/L) sont réservés aux chirurgies à très haut risque hémorragique, comme la neurochirurgie ou l'ophtalmologie postérieure.",
-    "source": "SFAR 2020",
-    "grade": "Grade 2+",
-    "tags": [
-      "Transfusion",
-      "Plaquettes",
-      "Hémostase",
-      "Pré-opératoire"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Paracétamol (antalgique, antipyrétique)",
+    "body": "15 mg/kg par dose toutes les 6 h (maximum 60 mg/kg/j), per os, IV ou rectal.",
+    "detail": "Intervalle minimal de 4 h et dose maximale adulte à ne pas dépasser. Chez le nouveau-né et le prématuré, doses réduites et intervalles allongés selon l'âge gestationnel : se référer au protocole néonatal. Risque d'hépatotoxicité en cas de surdosage.",
+    "source": "RCP ; ANSM",
+    "tags": ["antalgique", "antipyrétique", "palier 1"]
   },
   {
-    "module": "Risque cardiovasculaire",
-    "hook": "Ne pas introduire de bêtabloquants le jour J",
-    "body": "L'initiation de bêtabloquants en préopératoire immédiat (le jour de la chirurgie) est formellement déconseillée chez un patient non traité préalablement.",
-    "detail": "Cette pratique augmente significativement le risque d'hypotension sévère, de bradycardie et d'accident vasculaire cérébral péri-opératoire.",
-    "source": "ESC 2022",
-    "grade": "Classe III",
-    "tags": [
-      "Cardiologie",
-      "Bêtabloquants",
-      "Évaluation pré-opératoire"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Ibuprofène (antalgique, antipyrétique)",
+    "body": "10 mg/kg par dose toutes les 8 h per os (20 à 30 mg/kg/j), à partir de 3 mois (≥ 5 kg).",
+    "detail": "À éviter en cas de déshydratation, de varicelle, de lésions cutanées infectieuses, d'insuffisance rénale ou d'asthme sévère non contrôlé. À prendre au cours d'un repas.",
+    "source": "RCP ; ANSM",
+    "tags": ["AINS", "antipyrétique", "antalgique"]
   },
   {
-    "module": "Voies aériennes difficiles",
-    "hook": "Sugammadex en sauvetage si intubation impossible",
-    "body": "En situation de \"ne peut intuber, ne peut ventiler\" (CICO) après une induction comportant du rocuronium, administrer d'emblée du sugammadex à très forte dose (16 mg/kg).",
-    "detail": "Cette dose permet une réversion immédiate et profonde du bloc neuromusculaire, facilitant le retour éventuel en ventilation spontanée.",
-    "source": "SFAR 2017",
-    "grade": "Grade 1+",
-    "tags": [
-      "VAD",
-      "Curares",
-      "Sauvetage",
-      "Rocuronium"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Amoxicilline (otite, pneumonie)",
+    "body": "80 à 100 mg/kg/j per os en 2 à 3 prises.",
+    "detail": "Angine à streptocoque A : 50 mg/kg/j en 2 prises pendant 6 jours. Ne pas dépasser 3 g/j chez l'enfant. Ajuster en cas d'insuffisance rénale.",
+    "source": "SPILF/GPIP 2011 ; HAS 2016",
+    "tags": ["antibiotique", "bêta-lactamine", "ORL"]
   },
   {
-    "module": "Choc septique",
-    "hook": "Doser le lactate et cibler sa clairance",
-    "body": "Mesurer le taux de lactate sanguin initial dès la suspicion de sepsis, puis surveiller sa décroissance pour guider la réanimation hémodynamique.",
-    "detail": "L'hyperlactatémie est un marqueur d'hypoperfusion tissulaire ; la baisse du lactate reflète l'efficacité des thérapeutiques engagées.",
-    "source": "Surviving Sepsis Campaign 2021",
-    "grade": "Recommandation forte",
-    "tags": [
-      "Sepsis",
-      "Lactate",
-      "Hémodynamique",
-      "Monitorage"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Amoxicilline-acide clavulanique (otite avec Haemophilus)",
+    "body": "80 mg/kg/j d'amoxicilline en 3 prises per os.",
+    "detail": "Indiquée en cas d'échec de l'amoxicilline ou d'otite avec conjonctivite purulente (Haemophilus influenzae). Surveiller la tolérance digestive (diarrhée).",
+    "source": "SPILF/GPIP 2011",
+    "tags": ["antibiotique", "ORL", "otite"]
   },
   {
-    "module": "Anesthésie et Obésité",
-    "hook": "CPAP ou VNI post-opératoire prophylactique",
-    "body": "Chez le patient obèse sévère ou porteur d'un SAOS, utiliser la CPAP ou la VNI dès l'extubation en salle de réveil pour prévenir les complications respiratoires.",
-    "detail": "La pression positive prévient le collapsus des voies aériennes supérieures et la formation d'atélectasies très fréquentes dans cette population.",
-    "source": "SFAR 2019",
-    "grade": "Grade 1+",
-    "tags": [
-      "Obésité",
-      "VNI",
-      "SAOS",
-      "SSPI"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Ceftriaxone (infection bactérienne sévère)",
+    "body": "50 mg/kg/j en 1 injection IV ou IM (maximum 2 g) ; 100 mg/kg/j (maximum 4 g) en cas de méningite ou de purpura fulminans.",
+    "detail": "Contre-indiquée chez le nouveau-né ictérique ou recevant du calcium IV (risque de précipitation et d'ictère nucléaire).",
+    "source": "RCP ; recommandations françaises 2014 (purpura fulminans)",
+    "tags": ["antibiotique", "céphalosporine", "méningite"]
   },
   {
-    "module": "Anesthésie pédiatrique",
-    "hook": "Privilégier les sondes à ballonnet",
-    "body": "En anesthésie pédiatrique, utiliser préférentiellement une sonde d'intubation avec ballonnet, y compris chez le petit enfant et le nourrisson.",
-    "detail": "Le contrôle strict de la pression du ballonnet (< 20 cmH2O) est indispensable pour éviter les lésions de la muqueuse trachéale.",
-    "source": "ESAIC / SFAR",
-    "grade": "Recommandation forte",
-    "tags": [
-      "Pédiatrie",
-      "Intubation",
-      "Matériel"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Salbutamol (crise d'asthme)",
+    "body": "Nébulisation : 2,5 mg si < 20 kg, 5 mg si ≥ 20 kg, répétable toutes les 20 minutes la 1re heure. Ou 4 à 10 bouffées de 100 µg en chambre d'inhalation.",
+    "detail": "Utiliser de l'oxygène comme gaz vecteur si SpO2 < 94 %. Surveiller la fréquence cardiaque et la kaliémie en cas de crise sévère prolongée.",
+    "source": "GINA 2023",
+    "tags": ["bêta-2 mimétique", "asthme", "urgence"]
   },
   {
-    "module": "Neuro-réanimation",
-    "hook": "Nimodipine précoce dans l'hémorragie méningée",
-    "body": "Débuter la nimodipine per os (ou par sonde nasogastrique) le plus tôt possible après une hémorragie sous-arachnoïdienne anévrismale.",
-    "detail": "Ce traitement n'inverse pas le vasospasme angiographique mais prévient efficacement l'ischémie cérébrale retardée et améliore le pronostic neurologique.",
-    "source": "AHA / SFAR",
-    "grade": "Recommandation forte",
-    "tags": [
-      "HSA",
-      "Vasospasme",
-      "Neurologie"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Prednisolone (crise d'asthme)",
+    "body": "1 à 2 mg/kg/j per os en 1 prise (maximum 40 mg/j), pendant 3 à 5 jours.",
+    "detail": "À débuter précocement dans les crises modérées à sévères. Pas de décroissance nécessaire pour des cures courtes.",
+    "source": "GINA 2023",
+    "tags": ["corticoïde", "asthme"]
   },
   {
-    "module": "Ventilation mécanique",
-    "hook": "Pression motrice (Driving Pressure) < 15 cmH2O",
-    "body": "Dans le SDRA, régler le ventilateur pour limiter la pression motrice (Pression de plateau - PEP totale) strictement en dessous de 15 cmH2O.",
-    "detail": "La pression motrice est la variable ventilatoire la plus fortement associée à la mortalité dans le SDRA, car elle reflète le strain pulmonaire dynamique.",
-    "source": "SRLF 2019",
-    "grade": "Grade 1+",
-    "tags": [
-      "SDRA",
-      "Ventilation protectrice",
-      "Monitorage"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Dexaméthasone (laryngite aiguë sous-glottique)",
+    "body": "0,15 à 0,6 mg/kg en dose unique, per os ou IM.",
+    "detail": "Une dose de 0,15 mg/kg est le plus souvent suffisante. L'adrénaline nébulisée est réservée aux formes sévères (stridor de repos, signes de lutte).",
+    "source": "Consensus pédiatrique — Laryngite aiguë",
+    "tags": ["corticoïde", "laryngite", "stridor"]
   },
   {
-    "module": "Douleur post-opératoire",
-    "hook": "Infiltration systématique des cicatrices",
-    "body": "En l'absence de bloc nerveux périphérique ou d'anesthésie périmédullaire, réaliser une infiltration systématique des berges chirurgicales par des anesthésiques locaux.",
-    "detail": "Il s'agit du premier échelon de l'analgésie locorégionale, particulièrement utile en épargne morphinique.",
-    "source": "SFAR 2024",
-    "grade": "Grade 1+",
-    "tags": [
-      "Analgésie multimodale",
-      "ALR",
-      "Chirurgie"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Adrénaline (anaphylaxie)",
+    "body": "0,01 mg/kg en IM dans la cuisse (face antérolatérale), répétable après 5 à 15 minutes.",
+    "detail": "Dose maximale habituelle de 0,3 mg chez l'enfant prépubère (0,5 mg chez l'adolescent). L'adrénaline 1 mg/mL (1/1000e) s'utilise pure : 0,01 mL/kg.",
+    "source": "EAACI 2021",
+    "tags": ["catécholamine", "anaphylaxie", "urgence"]
   },
   {
-    "module": "Infectiologie",
-    "hook": "Bithérapie d'emblée pour la pneumonie grave",
-    "body": "Pour les pneumonies aiguës communautaires (PAC) graves en réanimation, initier une bithérapie associant une bêta-lactamine et un macrolide (ou une fluoroquinolone).",
-    "detail": "Cette couverture large, notamment contre les germes intracellulaires, diminue la mortalité de manière démontrée.",
-    "source": "SRLF / SPILF 2019",
-    "grade": "Recommandation forte",
-    "tags": [
-      "Pneumonie",
-      "Antibiotiques",
-      "Réanimation"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Adrénaline (arrêt cardiaque)",
+    "body": "10 µg/kg en IV ou IO, à répéter toutes les 3 à 5 minutes.",
+    "detail": "Équivaut à 0,1 mL/kg d'une solution à 0,1 mg/mL. Administrer dès que possible en rythme non choquable, et après le 3e choc en rythme choquable.",
+    "source": "ERC 2021 — Arrêt cardiaque pédiatrique",
+    "tags": ["catécholamine", "arrêt cardiaque", "RCP"]
   },
   {
-    "module": "Insuffisance rénale aiguë",
-    "hook": "Différer l'épuration extrarénale sans urgence",
-    "body": "En cas d'IRA sévère sans complication vitale immédiate, adopter une stratégie d'attente vigilante (delayed) avant de démarrer l'épuration extrarénale.",
-    "detail": "Les urgences absolues restent : hyperkaliémie > 6 mmol/L, acidose sévère (pH < 7.15) ou OAP réfractaire aux diurétiques.",
-    "source": "SRLF 2018",
-    "grade": "Grade 1-",
-    "tags": [
-      "IRA",
-      "Dialyse",
-      "Néphrologie"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Défibrillation (FV/TV sans pouls)",
+    "body": "4 J/kg par choc externe.",
+    "detail": "Même énergie pour les chocs suivants. Utiliser des électrodes pédiatriques si poids < 25 kg (ou < 8 ans) quand elles sont disponibles. Reprendre les compressions immédiatement après le choc.",
+    "source": "ERC 2021 — Arrêt cardiaque pédiatrique",
+    "tags": ["défibrillation", "arrêt cardiaque"]
   },
   {
-    "module": "Anesthésie obstétricale",
-    "hook": "Antibioprophylaxie avant l'incision (césarienne)",
-    "body": "Lors d'une césarienne, administrer l'antibioprophylaxie intraveineuse avant l'incision cutanée, et non après le clampage du cordon ombilical.",
-    "detail": "Cette pratique réduit significativement le taux d'endométrites maternelles sans effet indésirable documenté pour le nouveau-né.",
-    "source": "SFAR 2019",
-    "grade": "Grade 1+",
-    "tags": [
-      "Césarienne",
-      "Antibioprophylaxie",
-      "Obstétrique"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Remplissage vasculaire (choc hypovolémique ou septique)",
+    "body": "Cristalloïdes isotoniques (NaCl 0,9 % ou Ringer lactate) : 10 mL/kg en 5 à 20 minutes, à réévaluer après chaque bolus.",
+    "detail": "Dans le choc septique, 10 à 20 mL/kg par bolus, réévaluation systématique à la recherche de signes de surcharge (hépatomégalie, crépitants, hypoxémie). Chez le nouveau-né, bolus de 10 mL/kg.",
+    "source": "ERC 2021 ; Surviving Sepsis Campaign Children 2020",
+    "tags": ["remplissage", "choc", "cristalloïdes"]
   },
   {
-    "module": "Anesthésie du sujet âgé",
-    "hook": "Monitorer la profondeur d'anesthésie (BIS)",
-    "body": "Chez les patients âgés ou à risque, utiliser un moniteur de profondeur d'anesthésie (comme le BIS ou l'entropie) pour titrer les hypnotiques.",
-    "detail": "L'évitement de l'anesthésie trop profonde (et des phases de suppression EEG) réduit l'incidence des troubles cognitifs post-opératoires.",
-    "source": "ESAIC 2017",
-    "grade": "Recommandation forte",
-    "tags": [
-      "Gériatrie",
-      "BIS",
-      "Delirium",
-      "AAG"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Glucose (hypoglycémie symptomatique)",
+    "body": "Glucose 10 % : 2 mL/kg (200 mg/kg) en IV lent.",
+    "detail": "Contrôler la glycémie 10 à 15 minutes après. Relayer par une perfusion glucosée en cas d'hypoglycémie persistante ou récidivante.",
+    "source": "ERC 2021",
+    "tags": ["glucose", "hypoglycémie", "urgence"]
   },
   {
-    "module": "Hépatologie en réanimation",
-    "hook": "Albumine et terlipressine dans le syndrome hépato-rénal",
-    "body": "Traiter le syndrome hépato-rénal (SHR-AKI) par une expansion volumique à l'albumine associée à un vasoconstricteur splanchnique (terlipressine).",
-    "detail": "La noradrénaline est une alternative acceptable à la terlipressine si cette dernière n'est pas disponible ou contre-indiquée.",
-    "source": "EASL 2018",
-    "grade": "Grade 1",
-    "tags": [
-      "Cirrhose",
-      "SHR",
-      "Albumine",
-      "Terlipressine"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Midazolam (crise convulsive)",
+    "body": "0,3 mg/kg par voie buccale (maximum 10 mg), la dose étant adaptée par tranche d'âge pour les formes prêtes à l'emploi.",
+    "detail": "Formes buccales prêtes à l'emploi : 2,5 mg (3 mois à < 1 an), 5 mg (1 à < 5 ans), 7,5 mg (5 à < 10 ans), 10 mg (10 à < 18 ans). Surveiller la fréquence respiratoire et la SpO2.",
+    "source": "RCP ; AES 2016",
+    "tags": ["benzodiazépine", "convulsion", "état de mal"]
   },
   {
-    "module": "Gestes invasifs",
-    "hook": "Pose de VVC possible si plaquettes > 20 G/L",
-    "body": "Il n'est pas recommandé de transfuser des plaquettes en prophylaxie pour la pose d'un cathéter veineux central (jugulaire ou fémoral) si la numération est supérieure à 20 G/L.",
-    "detail": "L'utilisation de l'échoguidage systématique a grandement sécurisé la procédure et justifié l'abaissement de ce seuil.",
-    "source": "SFAR 2020",
-    "grade": "Grade 2+",
-    "tags": [
-      "VVC",
-      "Thrombopénie",
-      "Transfusion",
-      "Échographie"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Diazépam rectal (crise convulsive)",
+    "body": "0,5 mg/kg par voie rectale (maximum 10 mg).",
+    "detail": "Répétable une fois si la crise persiste. Risque de dépression respiratoire, surtout si une 2e benzodiazépine est administrée.",
+    "source": "RCP ; AES 2016",
+    "tags": ["benzodiazépine", "convulsion"]
   },
   {
-    "module": "Troubles du rythme",
-    "hook": "Choc électrique synchrone si FA instable",
-    "body": "Réaliser une cardioversion électrique d'urgence en cas de fibrillation atriale compliquée d'instabilité hémodynamique, d'ischémie myocardique ou d'OAP sévère.",
-    "detail": "Le contrôle de la fréquence par anti-arythmiques est réservé aux patients stables.",
-    "source": "ESC 2020",
-    "grade": "Classe I",
-    "tags": [
-      "FA",
-      "Cardioversion",
-      "Cardiologie",
-      "Urgence"
-    ]
-  },
-  {
-    "module": "Hygiène et ALR",
-    "hook": "Antisepsie à la chlorhexidine alcoolique > 0,5%",
-    "body": "Pour l'antisepsie cutanée avant une anesthésie périmédullaire ou un bloc nerveux périphérique, utiliser de la chlorhexidine alcoolique.",
-    "detail": "Il est impératif d'attendre le séchage complet de l'antiseptique (risque d'arachnoïdite chimique en cas d'introduction intrathécale).",
-    "source": "SFAR",
-    "grade": "Recommandation forte",
-    "tags": [
-      "Hygiène",
-      "Asepsie",
-      "ALR",
-      "Rachianesthésie"
-    ]
-  },
-  {
-    "module": "Toxicologie",
-    "hook": "Nomogramme et NAC pour l'intoxication au paracétamol",
-    "body": "Débuter l'antidote N-acétylcystéine (NAC) en fonction de la concentration plasmatique de paracétamol reportée sur le nomogramme de Rumack-Matthew.",
-    "detail": "La NAC doit idéalement être administrée dans les 8 heures post-ingestion pour une efficacité hépatoprotectrice maximale.",
-    "source": "HAS / SFMU",
-    "grade": "Recommandation forte",
-    "tags": [
-      "Intoxication",
-      "Paracétamol",
-      "Antidote",
-      "Foie"
-    ]
-  },
-  {
-    "module": "Insuffisance respiratoire",
-    "hook": "Optiflow en première intention dans l'hypoxémie",
-    "body": "Utiliser l'oxygénothérapie à haut débit (OHD) nasal préférentiellement à la VNI ou l'O2 standard chez les patients en détresse respiratoire aiguë hypoxémique de novo.",
-    "detail": "L'OHD génère une faible PEP, humidifie les voies aériennes et diminue le travail respiratoire sans l'inconfort d'un masque de VNI.",
-    "source": "SRLF 2021",
-    "grade": "Grade 1+",
-    "tags": [
-      "OHD",
-      "Hypoxémie",
-      "Optiflow",
-      "Respiratoire"
-    ]
-  },
-  {
-    "module": "Hémorragie digestive",
-    "hook": "Érythromycine IV avant endoscopie haute",
-    "body": "Administrer une perfusion d'érythromycine (250 mg IV) 30 à 120 minutes avant l'endoscopie pour une hémorragie digestive haute grave.",
-    "detail": "Son effet prokinétique puissant vidange le contenu gastrique (caillots et sang), améliorant la visualisation et le succès du geste endoscopique.",
-    "source": "SFED / SRLF",
-    "grade": "Recommandation forte",
-    "tags": [
-      "HDH",
-      "Endoscopie",
-      "Érythromycine"
-    ]
-  },
-  {
-    "module": "Douleur pédiatrique",
-    "hook": "Proscription de la codéine et du tramadol < 12 ans",
-    "body": "Ne jamais prescrire de codéine ni de tramadol chez les enfants de moins de 12 ans.",
-    "detail": "Il existe un risque mortel de dépression respiratoire grave lié à un métabolisme ultra-rapide par le cytochrome P450 chez certains phénotypes génétiques.",
-    "source": "ANSM / HAS",
-    "grade": "Contre-indication",
-    "tags": [
-      "Pédiatrie",
-      "Opioïdes faibles",
-      "Douleur",
-      "Sécurité"
-    ]
-  },
-  {
-    "module": "Syndrome coronarien aigu",
-    "hook": "Oxygène uniquement si SpO2 < 90%",
-    "body": "Ne pas administrer d'oxygénothérapie de routine aux patients présentant un syndrome coronarien aigu si leur saturation (SpO2) est ≥ 90%.",
-    "detail": "L'hyperoxie induit une vasoconstriction coronaire et peut aggraver l'ischémie myocardique.",
-    "source": "ESC 2020",
-    "grade": "Classe III",
-    "tags": [
-      "SCA",
-      "Oxygénothérapie",
-      "Ischémie",
-      "Cardiologie"
-    ]
-  },
-  {
-    "module": "Embolie pulmonaire",
-    "hook": "Thrombolyse réservée aux formes à haut risque",
-    "body": "Réserver la thrombolyse systémique (altéplase, ténectéplase) aux embolies pulmonaires aiguës à haut risque, définies par un choc ou une hypotension persistante.",
-    "detail": "Pour les EP à risque intermédiaire, le traitement repose sur l'anticoagulation curative stricte, la thrombolyse exposant à un risque hémorragique intracrânien disproportionné.",
-    "source": "ESC 2019",
-    "grade": "Classe I",
-    "tags": [
-      "Embolie pulmonaire",
-      "Thrombolyse",
-      "Choc",
-      "Urgence"
-    ]
+    "module": "Posologies pédiatriques",
+    "quiz": true,
+    "format": "posologie",
+    "hook": "Morphine IV (douleur sévère, titration)",
+    "body": "Bolus de 0,05 à 0,1 mg/kg en IV lent, à répéter toutes les 5 à 10 minutes jusqu'au soulagement.",
+    "detail": "Surveiller fréquence respiratoire, SpO2 et sédation. En cas de surdosage : naloxone 0,01 mg/kg IV. Prudence chez le nouveau-né et le nourrisson < 3 mois (réduire les doses).",
+    "source": "RCP ; Pediadol",
+    "tags": ["opioïde", "douleur", "titration"]
   }
 ]

@@ -1,127 +1,146 @@
 [
   {
-    "module": "Hémorragie du post-partum",
-    "hook": "Fibrinogène précoce si saignement non contrôlé",
-    "body": "Maintenir une concentration de fibrinogène > 2 g/L lors d'une hémorragie du post-partum. Une supplémentation précoce par concentré de fibrinogène est recommandée si ce seuil n'est pas atteint.",
-    "detail": "Le taux de fibrinogène est un marqueur prédictif majeur de la gravité de l'hémorragie.",
-    "source": "CNGOF/SFAR 2014",
-    "grade": "Grade C",
-    "tags": [
-      "HPP",
-      "Fibrinogène",
-      "Transfusion",
-      "Obstétrique"
-    ]
+    "module": "Réanimation néonatale",
+    "hook": "Ventiler d'abord : 5 insufflations initiales",
+    "body": "En réanimation néonatale, la priorité est de dégager les voies aériennes et de ventiler : débuter par 5 insufflations de 2 à 3 secondes chez un nouveau-né qui ne respire pas efficacement. L'augmentation de la fréquence cardiaque est le premier signe d'efficacité.",
+    "detail": "Chez le nouveau-né à terme, débuter en air ambiant et titrer l'oxygène selon la SpO2 pré-ductale (main droite).",
+    "source": "ERC 2021 — Réanimation du nouveau-né",
+    "tags": ["réanimation néonatale", "ventilation", "salle de naissance"]
   },
   {
-    "module": "Arrêt cardiaque",
-    "hook": "Déplacement utérin gauche lors du massage",
-    "body": "Lors de la RCP d'une femme enceinte (> 20 SA), réaliser un déplacement manuel continu de l'utérus vers la gauche pour lever la compression aorto-cave et améliorer le retour veineux.",
-    "detail": "L'inclinaison de la table à 15-30° est une alternative si le déplacement manuel est impossible, mais elle complique le massage.",
-    "source": "ERC 2021",
-    "grade": "Recommandation forte",
-    "tags": [
-      "ACR",
-      "Obstétrique",
-      "RCP",
-      "Aortocave"
-    ]
+    "module": "Réanimation néonatale",
+    "hook": "Compressions seulement si FC < 60 après ventilation",
+    "body": "N'initier les compressions thoraciques que si la fréquence cardiaque reste < 60/min malgré une ventilation efficace (le thorax se soulève) : ratio de 3 compressions pour 1 insufflation, soit environ 90 compressions et 30 insufflations par minute, technique des deux pouces.",
+    "detail": "Si la FC reste < 60/min après 30 secondes de compressions coordonnées, administrer de l'adrénaline IV ou IO (10 à 30 µg/kg).",
+    "source": "ERC 2021 — Réanimation du nouveau-né",
+    "tags": ["réanimation néonatale", "compressions", "adrénaline"]
   },
   {
-    "module": "Douleur post-opératoire",
-    "hook": "Pas de gabapentinoïdes en systématique",
-    "body": "Ne pas administrer systématiquement de prégabaline ou de gabapentine pour prévenir la douleur aiguë post-opératoire ou sa chronicisation.",
-    "detail": "Leur usage expose à des effets indésirables (notamment sédation) sans bénéfice prouvé en routine hors douleur neuropathique préexistante.",
-    "source": "SFAR 2024",
-    "grade": "Grade 1-",
-    "tags": [
-      "Douleur",
-      "Prégabaline",
-      "Épargne morphinique",
-      "ALR"
-    ]
+    "module": "Réanimation néonatale",
+    "hook": "Apgar : décrit, ne décide pas",
+    "body": "Le score d'Apgar est évalué à 1, 5 et 10 minutes, mais il ne doit jamais retarder la réanimation : les premiers gestes se décident sur la respiration et la fréquence cardiaque.",
+    "detail": "Un Apgar bas à 5 ou 10 minutes oriente le suivi et le pronostic, mais n'est pas à lui seul un critère de lésion hypoxique. Il est un outil de description et de communication.",
+    "source": "ERC 2021 ; AAP/ACOG — Score d'Apgar",
+    "tags": ["Apgar", "réanimation néonatale"]
   },
   {
-    "module": "SDRA",
-    "hook": "Curares précoces < 48h si SDRA sévère",
-    "body": "Envisager une curarisation continue précoce et brève (< 48h) dans le SDRA sévère (PaO2/FiO2 < 150) avec asynchronies majeures malgré une sédation profonde.",
-    "detail": "La curarisation facilite la mise en œuvre de la ventilation protectrice et le positionnement en décubitus ventral.",
-    "source": "SRLF/SFAR 2019",
-    "grade": "Grade 2+",
-    "tags": [
-      "SDRA",
-      "Ventilation",
-      "Curares",
-      "Réanimation"
-    ]
+    "module": "Accueil du nouveau-né",
+    "hook": "Clampage du cordon retardé d'au moins 60 s",
+    "body": "Chez le nouveau-né stable, à terme ou prématuré, retarder le clampage du cordon d'au moins 60 secondes après la naissance, en maintenant l'enfant au chaud.",
+    "detail": "Bénéfices : meilleure transition cardiopulmonaire, réserves en fer améliorées, moins de transfusions et d'hémorragies intraventriculaires chez le prématuré. Si une réanimation immédiate est nécessaire, elle prime.",
+    "source": "ERC 2021 — Réanimation du nouveau-né",
+    "tags": ["clampage du cordon", "naissance"]
   },
   {
-    "module": "Jeûne préopératoire",
-    "hook": "Chewing-gum autorisé jusqu'à l'induction",
-    "body": "La consommation de chewing-gum ou le fait de sucer un bonbon ne nécessite pas de reporter l'intervention chirurgicale ou de prolonger le jeûne.",
-    "detail": "Cela ne modifie pas significativement le volume ni le pH du liquide gastrique.",
-    "source": "SFAR 2017",
-    "grade": "Grade 1+",
-    "tags": [
-      "Jeûne",
-      "Pré-opératoire",
-      "Estomac plein"
-    ]
+    "module": "Accueil du nouveau-né",
+    "hook": "Peau à peau immédiat et prolongé",
+    "body": "Chez le nouveau-né vigoureux, placer l'enfant en peau à peau avec sa mère dès la naissance, pendant au moins une heure ou jusqu'à la 1re tétée, en surveillant sa couleur, sa respiration et son tonus.",
+    "detail": "Le peau à peau favorise la thermorégulation, la stabilité cardiorespiratoire et le succès de l'allaitement. Une surveillance rapprochée est nécessaire (risque rare de malaise grave du nouveau-né).",
+    "source": "OMS 2017 — Dix conditions pour le succès de l'allaitement",
+    "tags": ["peau à peau", "allaitement", "thermorégulation"]
   },
   {
-    "module": "Choc septique",
-    "hook": "Corticoïdes si noradrénaline ≥ 0,25 µg/kg/min",
-    "body": "Introduire l'hydrocortisone (200 mg/j en IV continu ou fractionné) chez les patients en choc septique nécessitant un recours continu aux vasopresseurs (≥ 0,25 µg/kg/min de noradrénaline).",
-    "detail": "Cette thérapie accélère le sevrage des catécholamines bien qu'elle n'ait pas d'impact direct prouvé sur la survie globale à long terme.",
-    "source": "Surviving Sepsis Campaign 2021",
-    "grade": "Recommandation faible",
-    "tags": [
-      "Sepsis",
-      "Hydrocortisone",
-      "Vasopresseurs",
-      "Hémodynamique"
-    ]
+    "module": "Accueil du nouveau-né",
+    "hook": "Température normale du nouveau-né : 36,5-37,5 °C",
+    "body": "La température axillaire normale du nouveau-né est de 36,5 à 37,5 °C. L'hypothermie (< 36,5 °C) augmente la morbi-mortalité (hypoglycémie, détresse respiratoire) : la prévenir par le séchage, le bonnet, une salle chaude et le peau à peau.",
+    "detail": "L'OMS distingue l'hypothermie légère (36,0 à 36,4 °C), modérée (32,0 à 35,9 °C) et sévère (< 32 °C).",
+    "source": "OMS — Protection thermique du nouveau-né",
+    "tags": ["hypothermie", "thermorégulation", "nouveau-né"]
   },
   {
-    "module": "Anesthésie locorégionale",
-    "hook": "Injection fractionnée et aspiration répétée",
-    "body": "Pour prévenir l'intoxication systémique aux anesthésiques locaux (ISAL), injecter de façon fractionnée (3 à 5 ml maximum) en procédant à des aspirations préalables répétées.",
-    "detail": "Même sous contrôle échographique rigoureux, le risque d'injection intravasculaire par inadvertance n'est pas nul.",
-    "source": "ASRA 2018",
-    "grade": "Recommandation forte",
-    "tags": [
-      "ALR",
-      "ISAL",
-      "Sécurité",
-      "Toxicité"
-    ]
+    "module": "Hypoglycémie néonatale",
+    "hook": "Hypoglycémie : dépister les nouveau-nés à risque",
+    "body": "Surveiller la glycémie capillaire des nouveau-nés à risque (diabète maternel, retard de croissance, macrosomie, prématurité tardive, détresse). Une glycémie < 2,5 mmol/L (0,45 g/L) après la 4e heure de vie justifie une intervention.",
+    "detail": "Prise en charge graduée : alimentation précoce, gel de glucose, glucose IV si symptômes ou hypoglycémie persistante (G10 % 2 mL/kg puis perfusion). Les seuils exacts varient selon les protocoles locaux.",
+    "source": "AAP 2011 — Hypoglycémie néonatale",
+    "tags": ["hypoglycémie", "glycémie capillaire", "nouveau-né à risque"]
   },
   {
-    "module": "Dispositifs intracardiaques",
-    "hook": "Mode asynchrone si bistouri au-dessus de l'ombilic",
-    "body": "Reprogrammer le stimulateur cardiaque en mode asynchrone (DOO/VOO) ou placer un aimant si l'utilisation du bistouri électrique (particulièrement monopolaire) est prévue au-dessus de l'ombilic.",
-    "detail": "Cette action prévient l'inhibition inappropriée de la stimulation liée à la détection d'interférences électromagnétiques peropératoires.",
-    "source": "SFAR 2021",
-    "grade": "Grade 1+",
-    "tags": [
-      "Pacemaker",
-      "Cardiologie",
-      "Pré-opératoire",
-      "Interférences"
-    ]
+    "module": "Ictère néonatal",
+    "hook": "Ictère avant 24 h : pathologique",
+    "body": "Tout ictère apparaissant avant 24 heures de vie est pathologique jusqu'à preuve du contraire (hémolyse par incompatibilité ABO ou Rhésus, déficit en G6PD, infection). Il impose un dosage de bilirubine et un bilan étiologique.",
+    "detail": "La bilirubine (transcutanée puis sérique) s'interprète sur des courbes selon l'âge en heures et le terme, pour décider d'une photothérapie et prévenir l'ictère nucléaire.",
+    "source": "NICE CG98 2010 (mise à jour 2016) — Ictère néonatal",
+    "tags": ["ictère", "bilirubine", "incompatibilité ABO"]
   },
   {
-    "module": "Traumatisme crânien",
-    "hook": "Éviter l'hyperventilation prophylactique",
-    "body": "Ne pas utiliser l'hyperventilation profonde prophylactique (PaCO2 < 25 mmHg) à la phase initiale du traumatisme crânien grave. Viser une normocapnie stricte (35-40 mmHg).",
-    "detail": "L'hyperventilation réduit la pression intracrânienne mais expose à un risque majeur d'ischémie cérébrale par vasoconstriction.",
-    "source": "Brain Trauma Foundation 2016",
-    "grade": "Niveau II B",
-    "tags": [
-      "Neuro-réanimation",
-      "TC grave",
-      "PIC",
-      "Capnie"
-    ]
+    "module": "Ictère néonatal",
+    "hook": "Ictère prolongé : doser la bilirubine conjuguée",
+    "body": "Un ictère persistant au-delà de 14 jours chez le nouveau-né à terme (21 jours chez le prématuré) impose un dosage de la bilirubine conjuguée. Des selles décolorées évoquent une atrésie des voies biliaires, urgence diagnostique.",
+    "detail": "La carte colorimétrique des selles du carnet de santé permet aux parents de repérer des selles décolorées. L'opération de Kasai est d'autant plus efficace qu'elle est précoce (idéalement avant J45).",
+    "source": "NICE CG98 2010 (mise à jour 2016) ; carnet de santé",
+    "tags": ["ictère prolongé", "cholestase", "atrésie des voies biliaires"]
+  },
+  {
+    "module": "Infection néonatale",
+    "hook": "Infection précoce : amoxicilline + aminoside",
+    "body": "Devant un nouveau-né symptomatique avec suspicion d'infection bactérienne précoce, débuter sans délai une antibiothérapie IV probabiliste associant amoxicilline et un aminoside (gentamicine), après hémocultures, sans attendre le résultat de la CRP.",
+    "detail": "Les principaux germes sont le streptocoque du groupe B et E. coli. L'arrêt est discuté à 48 h si les cultures sont négatives et l'évolution favorable, selon le protocole local.",
+    "source": "HAS 2017 — Infection bactérienne précoce du nouveau-né",
+    "tags": ["infection néonatale", "streptocoque B", "antibiothérapie"]
+  },
+  {
+    "module": "Infection néonatale",
+    "hook": "Streptocoque B : antibioprophylaxie per-partum",
+    "body": "Un portage vaginal du streptocoque B (dépistage en fin de grossesse) ou un facteur de risque (bactériurie à SGB, antécédent d'infection néonatale à SGB, fièvre maternelle) justifie une antibioprophylaxie per-partum par pénicilline G ou amoxicilline, idéalement au moins 4 heures avant la naissance.",
+    "detail": "Une antibioprophylaxie complète réduit fortement le risque d'infection néonatale précoce. En cas d'allergie, adapter le choix selon la sévérité de la réaction.",
+    "source": "ANAES 2001 ; CNGOF — Prévention de l'infection néonatale à SGB",
+    "tags": ["streptocoque B", "prévention", "obstétrique"]
+  },
+  {
+    "module": "Dépistage néonatal",
+    "hook": "Test de Guthrie : que dépiste-t-on ?",
+    "body": "Le dépistage néonatal est réalisé par prélèvement de sang sur buvard entre 48 et 72 heures de vie. Il recherche la phénylcétonurie, l'hypothyroïdie congénitale, l'hyperplasie congénitale des surrénales, la mucoviscidose, le déficit en MCAD et, de façon ciblée, la drépanocytose.",
+    "detail": "Un dépistage précoce permet un traitement avant l'apparition des séquelles. Les parents sont informés et peuvent refuser. Le programme évolue : vérifier la liste en vigueur.",
+    "source": "AFDPHE — Programme national de dépistage néonatal",
+    "tags": ["Guthrie", "dépistage", "phénylcétonurie"]
+  },
+  {
+    "module": "Dépistage néonatal",
+    "hook": "Dépistage auditif avant la sortie de maternité",
+    "body": "Un dépistage auditif (otoémissions acoustiques ou potentiels évoqués auditifs automatisés) est proposé à tous les nouveau-nés avant la sortie de maternité, car une surdité congénitale non dépistée retarde l'acquisition du langage.",
+    "detail": "Un test non concluant impose un contrôle puis, si besoin, un bilan ORL spécialisé avant l'âge de 3 mois, avec appareillage ou prise en charge avant 6 mois.",
+    "source": "Programme national de dépistage néonatal de la surdité (2014)",
+    "tags": ["dépistage", "surdité", "otoémissions"]
+  },
+  {
+    "module": "Prématurité",
+    "hook": "Corticoïdes anténataux avant 34 SA",
+    "body": "Une menace d'accouchement prématuré entre 24 et 34 SA justifie une corticothérapie anténatale de maturation pulmonaire (bétaméthasone, 2 injections de 12 mg IM à 24 h d'intervalle). Le sulfate de magnésium avant 32 SA assure une neuroprotection.",
+    "detail": "Le bénéfice est maximal lorsque la naissance survient entre 24 heures et 7 jours après la 1re injection. La corticothérapie réduit la détresse respiratoire, l'hémorragie intraventriculaire et la mortalité néonatale.",
+    "source": "CNGOF 2016 — Menace d'accouchement prématuré",
+    "tags": ["prématurité", "corticoïdes anténataux", "neuroprotection"]
+  },
+  {
+    "module": "Alimentation du nouveau-né",
+    "hook": "Perte de poids physiologique : 10 % maximum",
+    "body": "La perte de poids physiologique du nouveau-né ne dépasse pas 7 à 10 % du poids de naissance, avec un nadir vers J3-J4 et un retour au poids de naissance vers J10-J14. Au-delà de 10 %, évaluer les tétées et l'alimentation.",
+    "detail": "Une perte importante, associée à un ictère ou des urines rares, peut révéler une insuffisance d'apport lactée ou une déshydratation hypernatrémique : surveillance étroite et soutien à l'allaitement.",
+    "source": "HAS 2014 — Sortie de maternité",
+    "tags": ["perte de poids", "allaitement", "sortie de maternité"]
+  },
+  {
+    "module": "Alimentation du nouveau-né",
+    "hook": "Vitamine K : prophylaxie systématique à la naissance",
+    "body": "Une prophylaxie par vitamine K est administrée à tous les nouveau-nés pour prévenir la maladie hémorragique du nouveau-né (formes précoce, classique et tardive). Les nouveau-nés allaités exclusivement nécessitent des apports complémentaires selon le protocole local.",
+    "detail": "La forme tardive (2 semaines à 6 mois) peut se révéler par une hémorragie intracrânienne grave. Le refus parental doit être documenté après information.",
+    "source": "SFN / HAS — Prévention de la maladie hémorragique du nouveau-né",
+    "tags": ["vitamine K", "hémorragie", "prophylaxie"]
+  },
+  {
+    "module": "Vaccination",
+    "hook": "Coqueluche : vacciner la mère à chaque grossesse",
+    "body": "La vaccination anticoquelucheuse de la femme enceinte (à partir du 2e trimestre, idéalement entre 20 et 36 SA) protège le nouveau-né avant sa 1re vaccination à 2 mois, période où la coqueluche est la plus grave.",
+    "detail": "Avant 3 mois, la coqueluche peut se manifester par des apnées et une toux peu caractéristique. La vaccination de l'entourage proche (cocooning) reste un complément.",
+    "source": "HAS 2022 — Vaccination contre la coqueluche",
+    "tags": ["coqueluche", "vaccination maternelle", "nouveau-né"]
+  },
+  {
+    "module": "Douleur du nouveau-né",
+    "hook": "Saccharose + succion pour les gestes douloureux",
+    "body": "Pour un geste douloureux bref chez le nouveau-né (prélèvement, ponction), associer une solution sucrée (saccharose 24 % ou glucose 30 %) administrée 2 minutes avant, la succion non nutritive, l'allaitement ou le peau à peau.",
+    "detail": "Ces mesures ne remplacent pas une analgésie médicamenteuse lors d'un geste plus invasif. Évaluer la douleur avec une échelle adaptée (EDIN, DAN).",
+    "source": "Cochrane 2016 — Saccharose et analgésie néonatale",
+    "tags": ["douleur", "saccharose", "nouveau-né"]
   }
 ]

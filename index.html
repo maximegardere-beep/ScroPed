@@ -799,10 +799,12 @@ let STATE = loadState();
 
 // ---------- synchronisation GitHub (dossier /Recos) ----------
 const GH_CONFIG_KEY = "scroped_gh_config_v1";
+// dépôt par défaut : la synchro fonctionne dès le premier lancement, sans saisie
+const DEFAULT_GH_CONFIG = { owner: "maximegardere-beep", repo: "ScroPed", branch: "main" };
 function loadGhConfig(){
   const raw = localStorage.getItem(GH_CONFIG_KEY);
-  if(raw){ try{ return JSON.parse(raw); } catch(e){} }
-  return null;
+  if(raw){ try{ const c = JSON.parse(raw); if(c && c.owner && c.repo) return c; } catch(e){} }
+  return Object.assign({}, DEFAULT_GH_CONFIG);
 }
 function saveGhConfig(cfg){ localStorage.setItem(GH_CONFIG_KEY, JSON.stringify(cfg)); }
 
@@ -839,11 +841,10 @@ async function syncFromGithub(silent){
       return;
     }
 
-    // on garde tel quel tout ce qui n'a pas été importé via GitHub (seed de départ, imports manuels)
-    const keptPosts = POSTS.filter(p => !p.remote);
-    // on indexe les anciens posts distants pour conserver les favoris/progrès si le contenu est inchangé
+    // on indexe les anciens posts (distants ou cartes de départ) pour conserver les favoris/progrès
+    // quand une carte de départ est remplacée par sa version publiée dans Recos/
     const oldRemoteIndex = {};
-    POSTS.filter(p => p.remote).forEach(p => { oldRemoteIndex[dedupeKey(p.module, p.hook)] = p.id; });
+    POSTS.filter(p => !p.pendingPublish).forEach(p => { oldRemoteIndex[dedupeKey(p.module, p.hook)] = p.id; });
 
     const newRemotePosts = [];
     let fileErrors = [];
@@ -866,6 +867,10 @@ async function syncFromGithub(silent){
       }
     }
 
+    // on garde tel quel ce qui n'a pas été importé via GitHub (cartes de départ absentes de Recos/,
+    // imports manuels), sauf les cartes déjà présentes côté GitHub
+    const remoteKeys = new Set(newRemotePosts.map(p => dedupeKey(p.module, p.hook)));
+    const keptPosts = POSTS.filter(p => !p.remote && (p.pendingPublish || !remoteKeys.has(dedupeKey(p.module, p.hook))));
     POSTS = keptPosts.concat(newRemotePosts);
     savePosts(POSTS);
     FEED_ORDER = buildFeedOrder();
@@ -877,7 +882,7 @@ async function syncFromGithub(silent){
     showToast('Synchronisation GitHub terminée');
   }catch(err){
     if(msgEl) msgEl.textContent = `Échec de la synchronisation : ${err.message}`;
-    if(!silent) showToast('Échec de la synchronisation');
+    showToast(silent ? 'Synchronisation GitHub impossible : fiches locales affichées' : 'Échec de la synchronisation');
   }
 }
 
@@ -1651,8 +1656,8 @@ document.getElementById('btnAutoGenerate').addEventListener('click', async () =>
 // ---------- init ----------
 renderFeed();
 updatePendingCount();
-// tentative de synchronisation silencieuse si une config GitHub existe déjà
-if(loadGhConfig()){ syncFromGithub(true); }
+// synchronisation silencieuse au lancement (dépôt par défaut si aucune config enregistrée)
+syncFromGithub(true);
 </script>
 </body>
 </html>
